@@ -18,9 +18,13 @@ cd ../
 
 and clone 
 ```
-git clone
+git clone https://github.com/amkv/git_push_2_repositories.git
 ```
 
+move sh_push script to your project folder
+```
+mv folder .
+```
 change permissions
 ```
 chmode 755 sh_push
