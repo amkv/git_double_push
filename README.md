@@ -10,8 +10,6 @@ change the url variable in config_g
 ```
 url =  https://github.com/your_login/project.git
 ```
-
-```
 go back
 
 ```
