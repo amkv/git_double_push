@@ -11,7 +11,7 @@ change the url variable in config_g
 url =  https://github.com/your_login/project.git
 ```
 
-you shoud have 2 configs files in the .git folder:
+you shoud have 2 config files in the .git folder:
 ```
 config
 config_g
