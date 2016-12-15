@@ -1,6 +1,6 @@
 # git_push_2_repositories
 
-make a copy of your config file in .git folder
+make a copy of your config file in the .git folder
 ```
 cd .git
 cp config config_g
