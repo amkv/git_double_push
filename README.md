@@ -1,5 +1,7 @@
 # git_push_2_repositories
 
+This simple script just helps you to push your projects files to 2 git repositories, the script simply changes the config file names
+
 make a copy of your config file in the .git folder
 ```
 cd .git
