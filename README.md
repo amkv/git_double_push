@@ -11,7 +11,7 @@ cp config config_g
 
 change the url variable in config_g
 ```
-url =  https://github.com/your_login/project.git
+url =  https://github.com/your_login/your_project.git
 ```
 go back and clone
 
