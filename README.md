@@ -16,7 +16,7 @@ go back
 cd ../
 ```
 
-clone 
+and clone 
 ```
 git clone
 ```
