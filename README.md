@@ -25,4 +25,7 @@ change permissions
 ```
 chmode 755 sh_push
 ```
-
+run
+```
+./sh_push
+```
