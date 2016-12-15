@@ -31,7 +31,7 @@ change permissions
 ```
 chmode 755 sh_push
 ```
-run
+launch
 ```
 ./sh_push
 ```
