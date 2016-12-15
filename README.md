@@ -20,12 +20,12 @@ cd ../
 
 and clone 
 ```
-git clone https://github.com/amkv/git_push_2_repositories.git
+git clone https://github.com/amkv/git_double_push.git
 ```
 
 move sh_push script to your project folder
 ```
-mv git_push_2_repositories/sh_push .
+mv git_double_push/sh_push .
 ```
 change permissions
 ```
@@ -34,4 +34,9 @@ chmode 755 sh_push
 launch
 ```
 ./sh_push
+```
+or
+
+```
+./sh_push "text to commit"
 ```
