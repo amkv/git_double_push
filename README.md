@@ -11,9 +11,20 @@ change the url variable in config_g
 url =  https://github.com/your_login/project.git
 ```
 
-you shoud have 2 config files in the .git folder:
 ```
-config
-config_g
+go back
+
+```
+cd ../
+```
+
+clone 
+```
+git clone
+```
+
+change permissions
+```
+chmode 755 sh_push
 ```
 
