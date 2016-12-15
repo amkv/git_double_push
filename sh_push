@@ -1,15 +1,21 @@
 #!/bin/bash
 
+
 git status
 git add *
+if [ "$#" -gt 0 ]
+then
+	git commit -m "$1"
+else
 git commit -m "progress"
+fi
 echo "----------------------------------------------------------------"
-echo push to School
+# echo push to School
 git push
 mv .git/config .git/config_s
 mv .git/config_g .git/config
 echo "----------------------------------------------------------------OK (School)"
-echo push to GIT
+# echo push to GIT
 git push
 mv .git/config .git/config_g
 mv .git/config_s .git/config
