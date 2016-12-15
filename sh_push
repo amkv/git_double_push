@@ -11,7 +11,6 @@ COMMENT="progress"
 
 git status
 git add *
-
 if [ "$#" -gt 0 ]
 then
 	git commit -m "$1"
@@ -26,14 +25,14 @@ if [ -a $GIT$CF ]
 		mv $GIT/$CF $GIT/$CFS
 	else
 		echo "${CF} file not found"
-		OK="BAD"
+		exit 1
 fi
 if [ -a $GIT$CFG ]
 	then
 		mv $GIT/$CFG $GIT/$CF
 	else
 		echo "${CFG} file not found"
-		OK="BAD"
+		exit 1
 fi
 echo "----------------------------------------------------------------${OK} (${FIRST} git)"
 echo "push to ${SECOND} git"
