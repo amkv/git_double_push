@@ -6,7 +6,13 @@ cd .git
 cp config config_g
 ```
 
-change the url variable remote repository
+change the url variable 
+```
+url =  https://github.com/your_login/project.git
+```
 
 you shoud have 2 configs files in the .git folder:
-config and config_g
+```
+config
+config_g
+```
