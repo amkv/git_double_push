@@ -1,6 +1,6 @@
 # git_double_push
 
-This simple script just helps you to push your projects files to 2 git repositories, 
+This simple script helps you to push your projects files to 2 git repositories, 
 the script simply changes the config file name after first push, then change second config file name and push again.
 
 make a copy of your config file in the .git folder
